@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.savantsavior.t-crisis4</id>
+
+  <!-- AppStream licenses: metadata is CC0; project is MIT -->
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+
+  <name>T-Crisis 4 110% A.I. Turbo Remix</name>
+  <summary>Fast, polished falling-blocks arcade puzzle with 4-player local play</summary>
+
+  <description>
+    <p>
+      T-Crisis 4 is a free, open-source falling-blocks arcade puzzle for Linux.
+      It features crisp visuals, responsive controls, energetic music, and an
+      efficient engine inspired by classic handheld gameplay.
+    </p>
+    <p>
+      Play solo or up to 4 players locally with keyboard, mouse, or USB/Bluetooth
+      controllers. Includes strong computer A.I. opponents and multiple game modes.
+    </p>
+  </description>
+
+  <launchable type="desktop-id">io.github.savantsavior.t-crisis4.desktop</launchable>
+
+  <provides>
+    <binary>tc4-tribute3</binary>
+  </provides>
+
+  <categories>
+    <category>Game</category>
+    <category>ArcadeGame</category>
+  </categories>
+
+  <keywords>
+    <keyword>falling-blocks</keyword>
+    <keyword>puzzle</keyword>
+    <keyword>blocks</keyword>
+    <keyword>arcade</keyword>
+    <keyword>game</keyword>
+  </keywords>
+
+  <!-- Reverse-DNS developer id per guidelines -->
+  <developer id="io.github.savantsavior">
+    <name>Team 16BitSoft</name>
+  </developer>
+
+  <!-- Helpful links -->
+  <url type="homepage">https://github.com/savantsavior/t-crisis4</url>
+  <url type="vcs-browser">https://github.com/savantsavior/t-crisis4</url>
+  <url type="bugtracker">https://github.com/savantsavior/t-crisis4/issues</url>
+
+  <!-- OARS 1.1: suitable for all ages (adjust if needed) -->
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">none</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="violence-bloodshed">none</content_attribute>
+    <content_attribute id="violence-sexual">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="drugs-narcotics">none</content_attribute>
+    <content_attribute id="drugs-tobacco">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="language-profanity">none</content_attribute>
+    <content_attribute id="language-humor">none</content_attribute>
+    <content_attribute id="language-discrimination">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="money-gambling">none</content_attribute>
+  </content_rating>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/jun447/t-crisis-4-flatpak/68c3e54794f4fb94c3952065692645cc773023c7/screenshots/T-C4_InGame.png</image>
+      <caption>Gameplay</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/jun447/t-crisis-4-flatpak/68c3e54794f4fb94c3952065692645cc773023c7/screenshots/T-C4_Title.png</image>
+      <caption>Title screen</caption>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="4.3.1" date="2025-01-01">
+      <description>
+        <p>Packaging improvements for Flatpak/Flathub, updated metadata and screenshots.</p>
+      </description>
+    </release>
+  </releases>
+</component>
