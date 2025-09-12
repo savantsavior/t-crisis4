@@ -2,10 +2,10 @@
 Type=Application
 Name=T-Crisis 4 110% A.I. Turbo Remix
 GenericName=Puzzle Game
-Comment=Fast, polished falling-blocks arcade puzzle with 4-player local play
+Comment=Tetris-style falling blocks puzzle with 4-player multiplayer
 Exec=tc4-tribute3-wrapper.sh
 Icon=io.github.savantsavior.t-crisis4
 Categories=Game;ArcadeGame;
-Keywords=falling-blocks;puzzle;blocks;arcade;game;
+Keywords=tetris;tetris-like;falling-blocks;puzzle;blocks;arcade;tetrominoes;multiplayer;game;
 Terminal=false
 StartupNotify=true
