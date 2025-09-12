@@ -7,17 +7,18 @@
   <project_license>MIT</project_license>
 
   <name>T-Crisis 4 110% A.I. Turbo Remix</name>
-  <summary>Fast, polished falling-blocks arcade puzzle with 4-player local play</summary>
+  <summary>Tetris-like falling blocks puzzle game with 4-player local multiplayer</summary>
 
-  <description>
+   <description>
     <p>
-      T-Crisis 4 is a free, open-source falling-blocks arcade puzzle for Linux.
+      T-Crisis 4 is a free, open-source tetris-style falling-blocks arcade puzzle for Linux.
       It features crisp visuals, responsive controls, energetic music, and an
-      efficient engine inspired by classic handheld gameplay.
+      efficient engine inspired by classic handheld tetris gameplay.
     </p>
     <p>
       Play solo or up to 4 players locally with keyboard, mouse, or USB/Bluetooth
-      controllers. Includes strong computer A.I. opponents and multiple game modes.
+      controllers. Includes strong computer A.I. opponents and multiple game modes
+      in this modern tetris tribute.
     </p>
   </description>
 
@@ -32,14 +33,18 @@
     <category>ArcadeGame</category>
   </categories>
 
-  <keywords>
+<keywords>
+    <keyword>tetris</keyword>
+    <keyword>tetris-like</keyword>
     <keyword>falling-blocks</keyword>
     <keyword>puzzle</keyword>
     <keyword>blocks</keyword>
     <keyword>arcade</keyword>
+    <keyword>tetrominoes</keyword>
+    <keyword>block-puzzle</keyword>
+    <keyword>multiplayer</keyword>
     <keyword>game</keyword>
   </keywords>
-
   <!-- Reverse-DNS developer id per guidelines -->
   <developer id="io.github.savantsavior">
     <name>Team 16BitSoft</name>
